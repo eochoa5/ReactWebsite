@@ -1,0 +1,48 @@
+
+.header{width:100%;
+  background-color:#14204d;
+  font-family: Helvetica, serif;
+  color:white;
+  height:95px;
+}
+.name{ margin-left:15px; padding-top: 15px;
+  text-shadow: 1.2px 1.2px #2785CB;
+  font-weight:bold;
+  font-size: 24px;
+  float:left;
+}
+
+.name > span{
+  text-shadow: none;
+  font-size:14px;
+}
+
+.fa-code{
+  font-size: 33px; font-weight:bold;
+}
+
+.menu{ text-align: center; padding-top: 40px}
+
+.menu > a{ color:white; text-decoration: none; padding: 0px 30px 5px 30px; font-size:22px;
+}
+
+.menu > a:hover, a:focus{ text-decoration: underline;
+}
+
+hr{border-top:none; border-left: none; border-right:none;
+  border-bottom: 1px solid rgba(61, 167, 244,0.1);
+}
+
+.home{
+  width:100%;
+  background-color:#14204d;
+  font-family: Helvetica, serif;
+  color:white;
+  background: linear-gradient(0deg,rgba(20, 32, 77,0.97),rgba(20, 32, 77,0.98)),
+  url(https://cdn.static-economist.com/sites/default/files/images/2015/09/blogs/economist-explains/code2.png) no-repeat;
+  background-size: cover;
+  padding-bottom:600px;
+ margin-top:-22px;
+
+
+}
