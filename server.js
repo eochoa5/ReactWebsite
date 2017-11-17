@@ -5,9 +5,9 @@ let http = require('http').Server(app);
 
 app.use(express.static(path.join(__dirname, '/build')));
 
-app.get('*', function(req, res){
-    res.sendFile(path.join(__dirname+'/build/index.html'));
-
+app.get('*', function (req, res) {
+    const index = path.join(__dirname, 'build', 'index.html');
+    res.sendFile(index);
 });
 
 http.listen(process.env.PORT || 5000, function(){
