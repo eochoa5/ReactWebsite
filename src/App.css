@@ -1,48 +1,165 @@
-
+@font-face {font-family:font1; src:url("font1.woff");}
 .header{width:100%;
   background-color:#14204d;
   font-family: Helvetica, serif;
   color:white;
   height:95px;
 }
+.drawer{
+  display: none; float: right; margin-right:6%; margin-top: 30px; font-size:40px; cursor:pointer;
+}
 .name{ margin-left:15px; padding-top: 15px;
   text-shadow: 1.2px 1.2px #2785CB;
   font-weight:bold;
   font-size: 24px;
-  float:left;
+  float:left; font-family: font1, Arial, Helvetica, sans-serif;
 }
 
 .name > span{
   text-shadow: none;
   font-size:14px;
+  display:block;
 }
 
 .fa-code{
-  font-size: 33px; font-weight:bold;
+  font-size: 31px; font-weight:bold;
 }
 
-.menu{ text-align: center; padding-top: 40px}
+.menu{ text-align: center; padding-top: 40px; }
 
-.menu > a{ color:white; text-decoration: none; padding: 0px 30px 5px 30px; font-size:22px;
+.menu > a{ color:white; text-decoration: none; padding: 0px 30px 5px 30px; font-size:22px; font-family: font1, Arial, Helvetica, sans-serif;
 }
 
-.menu > a:hover, a:focus{ text-decoration: underline;
+.menu > a:hover, a:focus{ text-decoration: underline !important;
 }
 
-hr{border-top:none; border-left: none; border-right:none;
-  border-bottom: 1px solid rgba(61, 167, 244,0.1);
+@media screen and (max-width: 800px) {
+  .name > span{font-size: 11px;}
+
 }
 
-.home{
+@media screen and (max-width: 710px) {
+  .menu{display: none;}
+  .drawer{display: block;}
+
+}
+
+@media screen and (max-width: 420px) {
+  .name{margin-left: 5px;}
+
+}
+
+@media screen and (max-width: 318px) {
+  .drawer{ position:absolute; left: 50%; top:47px;
+    transform: translateX(-50%); -ms-transform: translateX(-50%); -webkit-transform: translateX(-50%);
+  }
+  .header{
+    height:130px;
+  }
+
+}
+
+.home, .projects{
   width:100%;
-  background-color:#14204d;
+  background-color:#eee;
   font-family: Helvetica, serif;
-  color:white;
-  background: linear-gradient(0deg,rgba(20, 32, 77,0.97),rgba(20, 32, 77,0.98)),
+  color:gray;
+  background: linear-gradient(0deg,rgba(238,238,238,0.90),rgba(238,238,238,0.98)),
   url(https://cdn.static-economist.com/sites/default/files/images/2015/09/blogs/economist-explains/code2.png) no-repeat;
   background-size: cover;
-  padding-bottom:600px;
- margin-top:-22px;
+  text-align: center; padding-bottom: 240px;
+  border-bottom:none; border-left: none; border-right:none;
+  border-top: 1px solid rgba(61, 167, 244,0.1);
+}
 
+.fa-5x{color:white; font-size: 70px;  padding: 35px;
+}
+
+.rect{ display: inline-block; margin-left: 3%; margin-right: 3%; margin-top: 3%; width:210px;
+text-align: center; height:275px; overflow:hidden;}
+.rect h2{  font-size: 18px; font-weight: bold; font-family: font1, Arial, Helvetica, sans-serif;}
+
+.label{font-size: 13px; border-radius: 16px; margin-top: 10px;
+  display: inline-block; margin-left: 3px; margin-right: 3px;}
+
+.fa-clock-o{  background-color: #0BABA3;  }
+
+.fa-stack-overflow{background-color: #60066E;}
+
+.fa-android{
+  background-color: #375;
+}
+.fa-database{background-color: #024380;}
+
+.js{
+  background-color: #dca02b;
+}
+.pi{background-color: #337;}
+
+.fa-html5{background-color: #066E56;
+}
+.cpp{background-color: #245492;}
+
+.fa-desktop{background-color: #0B8288;}
+
+.project{color:white; border:1px solid rgba(61, 167, 244,0.1); font-size: 16px;
+  border-radius:10px;
+  width: 210px; height:200px;
+  background-color: #050C4D; overflow: hidden;
+  display: inline-block;
+  margin:3%; font-family: font1, Arial, Helvetica, sans-serif;
+}
+.android{background-color: #375;}
+.project > span{font-weight: bold; border: 1px solid rgba(61, 167, 244,0.1);
+  display: block;
+  padding-bottom: 10px;
+  border-radius: 10px;
 
 }
+.hybrid{background-color: #066E56;
+}
+.nobg{background: none;}
+.webdev{background-color: #60066E;}
+
+.footer{color:white; display: inline-block; width:100%;
+  background-color:#14204d; font-family: font1, Arial, Helvetica, sans-serif; text-align: center;
+  padding-bottom: 10px; padding-top: 10px; font-weight: bold; font-size: 14px;
+  bottom:0 !important;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background: #14204d;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+  color: gray;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+code{float:right; font-size: 16px; display: none;}
+
