@@ -3,10 +3,10 @@
   background-color:#14204d;
   font-family: Helvetica, serif;
   color:white;
-  height:95px;
+  height:91px;
 }
 .drawer{
-  display: none; float: right; margin-right:6%; margin-top: 30px; font-size:40px; cursor:pointer;
+  display: none; float: right; margin-right:5%; margin-top: 30px; font-size:40px; cursor:pointer;
 }
 .name{ margin-left:15px; padding-top: 15px;
   text-shadow: 1.2px 1.2px #2785CB;
@@ -34,7 +34,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .name > span{font-size: 11px;}
+  .name > span{font-size: 12px;}
 
 }
 
