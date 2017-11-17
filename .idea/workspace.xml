@@ -5,13 +5,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/service-worker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.a6c34f13.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.a6c34f13.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.40a85e05.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.40a85e05.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.973efc02.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.973efc02.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.5b368add.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.5b368add.js.map" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/font1.faed87e0.woff" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Projects.js" afterPath="$PROJECT_DIR$/src/components/Projects.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -73,8 +71,8 @@
       <file leaf-file-name="Projects.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Projects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -255,12 +253,12 @@
       <workItem from="1510776750927" duration="2500000" />
       <workItem from="1510782834726" duration="7067000" />
       <workItem from="1510813510125" duration="10719000" />
-      <workItem from="1510862321870" duration="20909000" />
+      <workItem from="1510862321870" duration="21398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79045000" />
+    <option name="totallyTimeSpent" value="79534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -722,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

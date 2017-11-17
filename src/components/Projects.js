@@ -25,10 +25,10 @@ class Projects extends Component {
                     let posFromTop = elems[i].getBoundingClientRect().top;
                     if (posFromTop - windowHeight <= 0) {
                         elems[i].classList.add('animated');
-                        elems[i].classList.add('slideInLeft');
+                        elems[i].classList.add('swing');
                     }else{
                         elems[i].classList.remove('animated');
-                        elems[i].classList.remove('slideInLeft');
+                        elems[i].classList.remove('swing');
                     }
                 }
             };
